@@ -1,5 +1,4 @@
 import fs from 'fs';
-import { start } from 'repl';
 const input = fs.readFileSync('day01.txt').toString().split('\n');
 
 function depthAnalyzer(input: string[])
