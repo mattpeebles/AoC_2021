@@ -1,5 +1,4 @@
 import fs from 'fs';
-import { isTemplateMiddle } from 'typescript';
 
 enum Locations {
     Top = 1 << 0,
